@@ -7,6 +7,7 @@ It's tested on Raspberry Pi 3 v1 and Python 2.7 but it should also on others Ras
 It use 3 simple backlighted arcade buttons to control the flow of itself on a non touchscreen display, providing some money saving.
 
 GPIO allocation:
+
 |            Button name | Raspberry 3 BCM pin | Raspberry 1 V1 BCM pin |
 |-----------------------:|:-------------------:|:----------------------:|
 |             Red button |          4          |            4           |
@@ -20,8 +21,9 @@ GPIO allocation:
 The printer is connected via Cups, so you can use any cups compatible printer.
 
 ---
-##Todo
 
-*Remove all unused libs
-*Add keyboard interrupt to exit
-*Make an external configuration file
+## Todo
+
+* Remove all unused libs
+* Add keyboard interrupt to exit
+* Make an external configuration file
